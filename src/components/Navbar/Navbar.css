@@ -1,0 +1,96 @@
+.topbar{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+}
+
+.topbar-inner{
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 20px 60px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);  
+}
+
+.topbar ul{
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.topbar ul li{
+    margin: 0px 30px 0px 0px;
+    list-style-type: none;
+}
+
+.topbar ul li a{
+  text-decoration: none ;
+  color: #6e6e6e;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.topbar-inner-name a {
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none !important;
+}
+
+.topbar-inner-menu span{
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.25s ease-in-out;
+}
+.topbar-inner-menu span:hover{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.topbar-inner-menu{
+    display: flex;
+}
+
+
+.button-div span {
+    color: #6e6e6e;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  }
+  
+.button-div, .button-div-first{
+    transition: 0.3s ease-in-out;     
+  }
+  
+.button-div {
+    height: 45px;
+    font: normal normal 700 1em/4em Arial,sans-serif;
+    overflow: hidden;
+    width: 130%;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-left: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .button-div-first{
+    margin-top: -10px;   
+  }
+  
+  .button-div:hover .button-div-first{
+    margin-top: -75px;
+    
+  }
