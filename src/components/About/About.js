@@ -1,4 +1,5 @@
 import "./About.css";
+import pavan from '../../assets/pavan.jpg';
 
 export default function About() {
   return (
@@ -6,7 +7,7 @@ export default function About() {
       <div className="about-main">
         <div className="about-left" data-aos="fade-right">
           <img
-            src="https://pavansrinivasmamidala.github.io/pavan.jpg"
+            src={pavan}
             alt="not loading"
           />
         </div>
