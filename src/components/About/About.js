@@ -4,7 +4,6 @@ export default function About() {
   return (
     <div>
       <div className="about-main">
-     
         <div className="about-left" data-aos="fade-right">
           <img
             src="https://pavansrinivasmamidala.github.io/pavan.jpg"
@@ -28,7 +27,37 @@ export default function About() {
               good designs using HTML and CSS.
             </p>
           </div>
-
+          <div>
+            <div className="social-media">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/pavansrinivasmamidala" target="_blank" rel="noreferrer">
+                  <div class="icons8-facebook"></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com/pavan_mamidala" target="_blank" rel="noreferrer" >
+                  <div class="icons8-twitter"></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/pavan_srinivas2501/" target="_blank" rel="noreferrer">
+                  <div class="icons8-instagram"></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/pavan-srinivas-mamidala-152139154/" target="_blank" rel="noreferrer">
+                  <div class="icons8-linkedin"></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.github.com/pavansrinivasmamidala" target="_blank" rel="noreferrer">
+                  <div class="icons8-github"></div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
           {/* <div className="about-right-down">
             <h3>PERSONAL INFO</h3>
             <div className="about-right-down-lists">

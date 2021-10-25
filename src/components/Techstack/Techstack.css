@@ -1,0 +1,40 @@
+.techstack-header{
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+.slideshow{
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.images{
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    animation: slideshow 25s linear infinite;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes slideshow {
+    0% {transform: translateX(2vw);}
+    100% {transform: translateX(-80%);}
+}
+
+.logo-card img{
+    width: 80px;
+    height: 80px;
+}
+
+.logo-card{
+    width:5%;
+    padding: 40px 40px 40px 40px;
+    box-shadow: 0 0 20px #f5f5f5;
+    margin-right: 20px;
+}

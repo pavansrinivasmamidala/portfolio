@@ -7,7 +7,10 @@ export default function Navbar() {
       <div className="topbar-inner">
         <div className="topbar-inner-name">
           <a href="/">
-            <span>Pavan Srinivas Mamidala</span>
+              <div className="name-header">
+              <div class="icons8-adobe-photoshop"></div>
+              <span> Pavan Srinivas Mamidala </span>
+              </div>
           </a>
         </div>
         <div className="topbar-inner-menu">
@@ -39,8 +42,7 @@ export default function Navbar() {
             </li>
           </ul>
           <div class="button-div">
-              <span class="button-div-first">Download CV</span>
-              <span>Download CV</span>
+             <button>Download CV</button>
             </div>
         </div>
         </div>
