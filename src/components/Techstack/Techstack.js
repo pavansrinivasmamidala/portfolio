@@ -104,7 +104,6 @@ export default function Techstack() {
               alt="not loading"
             />
           </div>
-          <div className="logo-card"></div>
         </div>
       </div>
     </div>

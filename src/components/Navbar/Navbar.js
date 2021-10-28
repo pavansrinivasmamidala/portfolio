@@ -42,7 +42,8 @@ export default function Navbar() {
             </li>
           </ul>
           <div class="button-div">
-             <button>Download CV</button>
+            <a href="https://drive.google.com/file/d/1GGaIS_1AtDQXCvjtGECwhWdqlZ8V_vv3/view" target="_blank" rel="noreferrer"> <button onClick>Download CV</button></a>
+             
             </div>
         </div>
         </div>
