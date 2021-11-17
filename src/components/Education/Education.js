@@ -59,7 +59,7 @@ export default function Education() {
                 <div className="progress-bar">
                     <span>React JS</span>
                 <Progress 
-               percent={40}
+               percent={60}
                
                theme={{
                    
