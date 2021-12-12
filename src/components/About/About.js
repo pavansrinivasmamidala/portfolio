@@ -21,12 +21,9 @@ export default function About() {
             <h3>I'm Pavan Srinivas</h3>
             <h5>A rookie aspiring to learn Web Dev based in Canada</h5>
             <p>
-              I try to learn HTML and CSS everyday and not make any progress. So
-              this is a paragraph and I need to fill it in order for me to add a
-              good styling and inevitably it looks good. Ok so now I should just
-              right out say that this paragraph is just to flex that I can build
-              good designs using HTML and CSS.
-            </p>
+              A computer geek found his way into learning how to develop websites. I used to fiddle around with Networking and learning Web Exploitation which rejuvenated a new interest in how websites are built and work. 
+                I started to learn HTML, CSS and JS and tried to build some websites and finally stumbled upon React JS. I use many new libraries like Styled Components, State Management (Redux, Recoil) and Node Js to develop some great looking Projects.
+                </p>
           </div>
           <div>
             <div className="social-media">
