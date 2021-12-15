@@ -1,17 +1,23 @@
 
 
-<pre>
 
-
-</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 ![Demo GIF](https://raw.githubusercontent.com/pavansrinivasmamidala/portfolio/main/demo.gif)
-<pre>
 
 
 
-</pre>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 # Portfolio showcasing my Achivements and Hobbies.
-<pre>
 
-</pre>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 ## currently hosted at: https://pavansrinivas.tech
