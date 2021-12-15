@@ -1,13 +1,15 @@
 
 <pre>
 
-
-# Portfolio showcasing my Achivements and Hobbies.
-
-
-
-## currently hosted at: https://pavansrinivas.tech
-
-
-![Demo GIF](https://raw.githubusercontent.com/pavansrinivasmamidala/portfolio/main/demo.gif)
 </pre>
+# Portfolio showcasing my Achivements and Hobbies.
+<pre>
+
+</pre>
+## currently hosted at: https://pavansrinivas.tech
+<pre>
+
+
+</pre>
+![Demo GIF](https://raw.githubusercontent.com/pavansrinivasmamidala/portfolio/main/demo.gif)
+
