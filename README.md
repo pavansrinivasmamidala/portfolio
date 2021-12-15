@@ -8,7 +8,7 @@
 
 &nbsp;
 &nbsp;
-# Portfolio showcasing my Achivements and Hobbies.
+# Portfolio showcasing my Achivements and Hobbies
 
 
 &nbsp;
