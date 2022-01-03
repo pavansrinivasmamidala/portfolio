@@ -9,7 +9,7 @@ export default function Education() {
       <div>
         <div className="about-education" id="education">
           <div className="education">
-            <h1>My Education & Skills</h1>
+            <h1 data-aos="fade-right" data-aos-duration="1200">My Education & Skills</h1>
 
             <div className="cards">
               <div className="card" data-aos="fade-right" data-aos-duration="1200"  >
@@ -39,7 +39,7 @@ export default function Education() {
                   </li>
                 </ul>
               </div>
-              <div className="card" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="50">
+              {/* <div className="card" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="50">
                 <h4>
                   <label>Skills</label>
                 </h4>
@@ -96,7 +96,7 @@ export default function Education() {
                />
                 </div>
               
-              </div>
+              </div> */}
               <div className="card" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
               <h4>
                   <label>Awards</label>
@@ -119,8 +119,33 @@ export default function Education() {
                   <li>
                     <span class="year">2019</span>
                     <p>
-                      <span>Finalist in Hackathon</span> - HackLeague,
-                      K L University
+                      <span>Finalist in Hackathon</span> - HackLeague
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div className="card" data-aos="fade-right" data-aos-duration="1200"  >
+                <h4>
+                  <label>Certifications</label>
+                </h4>
+                <ul>
+                  <li>
+                    <span class="year">Feb 2021</span>
+                    <p>
+                      <span>CEH </span> - Certified Ethical Hacker, EC-Council
+                    </p>
+                  </li>
+                  <li>
+                    <span class="year">Dec 2019</span>
+                    <p>
+                      <span>RPA Developer   </span>-  UI Path
+                    </p>
+                  </li>
+                  <li>
+                    <span class="year"></span>
+                    <p>
+                      <span></span> 
+                      
                     </p>
                   </li>
                 </ul>

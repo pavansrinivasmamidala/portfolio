@@ -8,8 +8,8 @@ export default function Navbar() {
         <div className="topbar-inner-name">
           <a href="/">
               <div className="name-header">
-              <div class="icons8-adobe-photoshop"></div>
-              <span> Pavan Srinivas Mamidala </span>
+             
+              <span> Pavan Srinivas </span>
               </div>
           </a>
         </div>
@@ -42,7 +42,7 @@ export default function Navbar() {
             </li>
           </ul>
           <div class="button-div">
-            <a href="https://drive.google.com/file/d/1GGaIS_1AtDQXCvjtGECwhWdqlZ8V_vv3/view" target="_blank" rel="noreferrer"> <button onClick>Résumé </button></a>
+            <a href="https://drive.google.com/file/d/1kjnr4yo2WHIj1LziXrzDtZJkQMWUBReo/view?usp=sharing" target="_blank" rel="noreferrer"> <button onClick>Résumé </button></a>
              
             </div>
         </div>

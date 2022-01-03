@@ -1,32 +1,45 @@
 .techstack-header{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     padding-left: 150px;
     padding-bottom: 50px;
+    text-align:center;
+    margin:5%;
 }
-.slideshow{
+.slideshow-1{
     position: relative;
     width: 100%;
     margin-top: 100px;
     margin-bottom: 100px;
-    overflow-x:clip;
+   overflow-x:clip;
+   margin-left:100px;
+    margin-bottom:8%;
+}
+
+.images:hover{
+    animation-play-state: paused;
 }
 .images{
     background: white;
     position: absolute;
-    left: 0;
-    top: 0;
+    margin-left:200px;
+    margin-right:200px;
     height: 100%;
-    width: 100%;
-    animation: slideshow 25s linear infinite;
+    animation: slideshow-1 2s linear infinite; 
     display: flex;
+    justify-content:center;
     align-items: center;
+    margin-bottom:30px;
 }
 
-@keyframes slideshow {
-    0% {transform: translateX(2vw);}
-    100% {transform: translateX(-80%);}
+@keyframes slideshow-1 {
+    0% {transform: translateX(0);}
+    25% {transform: translateX(5%);}
+    50% {transform: translateX(0);}
+    75% {transform:  translateX(-5%);}
+    100% {transform: translateX(0)}
 }
+
 
 .logo-card img{
     width: 80px;
