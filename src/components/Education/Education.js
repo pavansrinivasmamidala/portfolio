@@ -1,5 +1,5 @@
 import "./Education.css";
-import { Progress } from 'react-sweet-progress';
+//import { Progress } from 'react-sweet-progress';
 import "react-sweet-progress/lib/style.css";
 
 

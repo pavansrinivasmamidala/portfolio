@@ -9,6 +9,7 @@ function Projects() {
             <img
               src="https://raw.githubusercontent.com/pavansrinivasmamidala/flight-tracker/master/demo/4.jpg"
               width="650px"
+              alt="project-1"
               height="400px"
             />
           </div>
