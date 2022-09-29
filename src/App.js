@@ -5,6 +5,7 @@ import Contact from './components/Contact/Contact';
 import Techstack from './components/Techstack/Techstack';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Projects from './components/Projects/Project';
 
 AOS.init();
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <div className="App">
       <Navbar />
       <About />
-      <Education />
+      
+      
       <Techstack />
       <Contact />
     </div>

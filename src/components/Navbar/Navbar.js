@@ -9,12 +9,12 @@ export default function Navbar() {
           <a href="/">
               <div className="name-header">
              
-              <span> Pavan Srinivas </span>
+              <span> Pavan Srinivas Mamidala</span>
               </div>
           </a>
         </div>
         <div className="topbar-inner-menu">
-          <ul>
+          {/* <ul>
             <li>
               <a href="/">
                 <span>Home</span>
@@ -40,7 +40,7 @@ export default function Navbar() {
                 <span>Contact</span>
               </a>
             </li>
-          </ul>
+          </ul> */}
           <div class="button-div">
             <a href="https://drive.google.com/file/d/1kjnr4yo2WHIj1LziXrzDtZJkQMWUBReo/view?usp=sharing" target="_blank" rel="noreferrer"> <button onClick>Résumé </button></a>
              

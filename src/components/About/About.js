@@ -1,13 +1,14 @@
 import "./About.css";
-import pavan from '../../assets/illustration.svg';
+import illustration from "../../assets/illustration.svg";
 
 export default function About() {
   return (
-    <div>
+    <div className="container">
+      
       <div className="about-main">
         <div className="about-left" data-aos="fade-right">
           <img
-            src={pavan}
+            src={illustration}
             alt="not loading"
           />
         </div>
@@ -18,7 +19,7 @@ export default function About() {
           data-aos-delay="50"
         >
           <div className="about-right-top">
-            <h3>A rookie aspiring to learn <span>Web Dev</span></h3>
+            <h3>A rookie aspiring to be a <span>Web Dev</span></h3>
             <h3>based in Canada</h3>
             
             <p>

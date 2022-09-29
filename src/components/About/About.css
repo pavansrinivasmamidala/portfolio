@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   margin-top: 13%;
+  
 }
 
 .about-right {
@@ -59,7 +60,7 @@
 .icon {
   display: inline-block;
   width: 2.5vw;
-  height: 4.5vh;
+  height: 5vh;
   background-size: 100%;
   transition:all 0.7s ease-in-out;
 }
