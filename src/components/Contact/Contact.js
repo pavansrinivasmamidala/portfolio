@@ -21,7 +21,7 @@ export default function Contact() {
           </div>
           <div className="contact-card" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
               <img src={address} alt="address" />
-              <span>94 Brimorton Drive, Toronto</span>
+              <span>Toronto, Canada</span>
           </div>
         </div>
       </div>
