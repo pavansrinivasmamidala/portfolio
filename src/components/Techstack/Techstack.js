@@ -1,20 +1,14 @@
 import "./Techstack.css";
+import svelte from "../../assets/svelte.png";
 
 export default function Techstack() {
   return (
     <div>
-      <div className="techstack-header" data-aos="fade-right" data-aos-duration="1200">
-        <span></span>
-      </div>
+      {/* <div className="techstack-header" data-aos="fade-right" data-aos-duration="1200">
+        <span>Tech Stack</span>
+      </div> */}
       <div className="slideshow-1">
-        <div className="images" data-aos="fade-left" data-aos-duration="1200">
-          <div className="logo-card" data-aos-delay="50">
-            <img
-              src="https://img.icons8.com/ios-filled/100/000000/linux.png"
-              alt="not loading"
-            />
-            <span className="icon-text">Linux</span>
-          </div>
+        <div className="images">
           <div className="logo-card" data-aos-delay="50">
             <img
               src="https://img.icons8.com/ios-filled/100/000000/html-5--v2.png"
@@ -29,7 +23,7 @@ export default function Techstack() {
             />
             CSS
           </div>
-          
+
           <div className="logo-card">
             <img
               src="https://img.icons8.com/ios-filled/100/000000/javascript.png"
@@ -37,7 +31,7 @@ export default function Techstack() {
             />
             JS
           </div>
-<div className="logo-card">
+          <div className="logo-card">
             <img
               src="https://img.icons8.com/ios-filled/100/000000/react-native.png"
               alt="not loading"
@@ -51,14 +45,6 @@ export default function Techstack() {
             />
             Angular
           </div>
-          <div className="logo-card" data-aos-delay="50">
-            <img
-              src="https://img.icons8.com/ios-filled/100/000000/docker.png"
-              alt="not loading"
-            />
-            Docker
-          </div>
-
           <div className="logo-card">
             <svg
               width="3.5vw"
@@ -77,11 +63,32 @@ export default function Techstack() {
             Next JS
           </div>
           <div className="logo-card">
+            <img src={svelte} alt="not loading" width="3.5vw" height="7vh"  />
+            Svelte
+          </div>
+        </div>
+
+        <div className="images">
+          <div className="logo-card" data-aos-delay="50">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/linux.png"
+              alt="not loading"
+            />
+            <span className="icon-text">Linux</span>
+          </div>
+          <div className="logo-card" data-aos-delay="50">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/docker.png"
+              alt="not loading"
+            />
+            Docker
+          </div>
+          <div className="logo-card">
             <img
               src="data:image/png;base64,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"
               alt="not loading"
             />
-            Tailwind 
+            Tailwind
           </div>
           <div className="logo-card" title="Amazon Web Services">
             <img
@@ -93,10 +100,10 @@ export default function Techstack() {
           </div>
           <div className="logo-card">
             <img
-              src="https://i.pinimg.com/564x/a9/0a/18/a90a1850024c680a147328c54bec211a.jpg"
+              src="https://img.icons8.com/windows/256/000000/nodejs.png"
               alt="not loading"
             />
-            NPM
+            Node JS
           </div>
           <div className="logo-card">
             <img
@@ -105,8 +112,6 @@ export default function Techstack() {
             />
             Postman
           </div>
-
-
         </div>
       </div>
     </div>
