@@ -1,2 +1,2 @@
 
-## currently hosted at: https://pavansrinivas.tech
+## https://pavansrinivas.tech
