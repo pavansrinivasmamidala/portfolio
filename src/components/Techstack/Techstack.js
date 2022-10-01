@@ -63,7 +63,7 @@ export default function Techstack() {
             Next JS
           </div>
           <div className="logo-card">
-            <img src={svelte} alt="not loading" width="3.5vw" height="7vh"  />
+            <img src={svelte} alt="not loading" width="3.5vw" height="7vh" />
             Svelte
           </div>
         </div>
@@ -111,6 +111,53 @@ export default function Techstack() {
               alt="not loading"
             />
             MongoDB
+          </div>
+        </div>
+
+        <div className="images">
+          <div className="logo-card" data-aos-delay="50">
+            <img
+              src="https://img.icons8.com/ios/100/000000/java-coffee-cup-logo--v1.png"
+              alt="not loading"
+            />
+            <span className="icon-text">Java</span>
+          </div>
+          <div className="logo-card" data-aos-delay="50">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/php-logo.png"
+              alt="not loading"
+            />
+            <span className="icon-text">PHP</span>
+          </div>
+          <div className="logo-card" data-aos-delay="50">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/c-sharp-logo.png"
+              alt="not loading"
+            />
+            <span className="icon-text">C#</span>
+          </div>
+          {/* <div className="logo-card" data-aos-delay="50">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg"
+              alt="not loading"
+            />
+            <span className="icon-text">Socket.io</span>
+          </div> */}
+
+          <div className="logo-card" data-aos-delay="50">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/python.png"
+              alt="not loading"
+            />
+            <span className="icon-text">Python</span>
+          </div>
+          
+          <div className="logo-card" data-aos-delay="50">
+            <img
+              src="https://img.icons8.com/small/100/000000/bash.png"
+              alt="not loading"
+            />
+            <span className="icon-text">Bash</span>
           </div>
         </div>
       </div>

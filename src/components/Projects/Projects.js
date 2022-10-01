@@ -13,7 +13,7 @@ export default function Projects() {
             </div>
 
             <div className="project-info">
-              <span>A Multiplayer typing game. (Currently working on it)</span>
+              <span>A Multiplayer typing game inspired by <span className="highlight">monkeytype.com</span>  (Currently working on it)</span>
             </div>
 
             <div className="project-link">
