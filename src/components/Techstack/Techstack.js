@@ -107,10 +107,10 @@ export default function Techstack() {
           </div>
           <div className="logo-card">
             <img
-              src="https://cdn.iconscout.com/icon/free/png-256/postman-3628404-3032239.png"
+              src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/000000/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png"
               alt="not loading"
             />
-            Postman
+            MongoDB
           </div>
         </div>
       </div>
