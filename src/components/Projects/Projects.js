@@ -1,6 +1,6 @@
 /* eslint-disable react/style-prop-object */
 import "./Project.css";
-import spacestagram from '../../assets/spacestagram.png';
+import spacestagram from "../../assets/spacestagram.png";
 
 export default function Projects() {
   return (
@@ -13,7 +13,17 @@ export default function Projects() {
             </div>
 
             <div className="project-info">
-              <span>A Multiplayer typing game inspired by <span className="highlight">monkeytype.com</span>  (Currently working on it)</span>
+              <span>
+                A Multiplayer typing game inspired by{" "}
+                <a
+                  className="highlight"
+                  href="https://monkeytype.com"
+                  target="__blank"
+                >
+                  monkeytype.com
+                </a>
+                <br /> (*currently working on it)
+              </span>
             </div>
 
             <div className="project-link">
@@ -22,7 +32,10 @@ export default function Projects() {
                 href="https://github.com/pavansrinivasmamidala/type-with-friends"
                 target="__blank"
               >
-                <img src="https://img.icons8.com/ios-glyphs/32/000000/github.png" alt="github-logo" />
+                <img
+                  src="https://img.icons8.com/ios-glyphs/32/000000/github.png"
+                  alt="github-logo"
+                />
               </a>
             </div>
           </div>
@@ -91,7 +104,10 @@ export default function Projects() {
                 href="https://github.com/pavansrinivasmamidala/flight-tracker"
                 target="__blank"
               >
-               <img src="https://img.icons8.com/ios-glyphs/32/000000/github.png" alt="github-logo" />
+                <img
+                  src="https://img.icons8.com/ios-glyphs/32/000000/github.png"
+                  alt="github-logo"
+                />
               </a>
             </div>
           </div>
@@ -104,7 +120,8 @@ export default function Projects() {
 
             <div className="project-info">
               <span>
-               A space themed instagram clone built as a part of Shopify Internship challenge.
+                A space themed instagram clone built as a part of Shopify
+                Internship challenge.
               </span>
             </div>
 
@@ -114,14 +131,20 @@ export default function Projects() {
                 href="https://github.com/pavansrinivasmamidala/spacestagram"
                 target="__blank"
               >
-                <img src="https://img.icons8.com/ios-glyphs/32/000000/github.png" alt="github-logo" />
+                <img
+                  src="https://img.icons8.com/ios-glyphs/32/000000/github.png"
+                  alt="github-logo"
+                />
               </a>
               <a
                 className="link"
                 href="https://spacestagram-lyart.vercel.app/"
                 target="__blank"
               >
-               <img src="https://img.icons8.com/sf-black/32/000000/external-link.png" alt="link to project" />
+                <img
+                  src="https://img.icons8.com/sf-black/32/000000/external-link.png"
+                  alt="link to project"
+                />
               </a>
             </div>
           </div>
