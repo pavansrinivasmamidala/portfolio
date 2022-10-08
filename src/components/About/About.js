@@ -51,7 +51,7 @@ export default function About() {
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com/pavan_srinivas2501/"
+                    href="https://www.instagram.com/pavan___srinivas"
                     target="_blank"
                     rel="noreferrer"
                   >
