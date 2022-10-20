@@ -1,5 +1,5 @@
 import "./Navbar.css";
-
+import Pdf from "../../assets/Resume.pdf";
 
 export default function Navbar() {
   return (
@@ -42,7 +42,7 @@ export default function Navbar() {
             </li>
           </ul> */}
           <div class="button-div">
-            <a href="https://drive.google.com/file/d/1kjnr4yo2WHIj1LziXrzDtZJkQMWUBReo/view?usp=sharing" target="_blank" rel="noreferrer"> <button onClick>Résumé </button></a>
+            <a href={Pdf} target="_blank" rel="noreferrer"> <button onClick>Résumé </button></a>
              
             </div>
         </div>
