@@ -71,9 +71,9 @@ export default function Projects() {
           <div className="screenshot">
             <img
               src="https://raw.githubusercontent.com/pavansrinivasmamidala/flight-tracker/master/demo/flight.jpg"
-              width="550px"
+              width="55vw"
               alt="project-1"
-              height="350px"
+              
             />{" "}
             <div className="tags">
               <div className="tag">
@@ -151,9 +151,8 @@ export default function Projects() {
           <div className="screenshot">
             <img
               src={spacestagram}
-              width="550px"
+              width="55vw"
               alt="project-1"
-              height="350px"
             />{" "}
             <div className="tags">
               <div className="tag">
