@@ -1,2 +1,2 @@
 
-## https://pavansrinivas.tech
+## https://pavansrinivas.info
