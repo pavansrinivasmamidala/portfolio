@@ -25,7 +25,7 @@
   align-items: center;
 }
 .topbar ul li {
-  margin: 0px 30px 0px 0px;
+  margin: 0px 0px 0px 0px;
   list-style-type: none;
 }
 
@@ -112,4 +112,32 @@
   display: flex;
   align-items: center;
   text-shadow: 1px 1px #9af2e2;
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+  .topbar{
+    position: static;
+  }
+
+.button-div button {
+  margin-left: 0px;
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+}
+
+.name-header{
+  margin-bottom:20px;
+}
+
+ .topbar-inner{
+  justify-content: flex-start;
+  padding: 20px 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+ }
 }

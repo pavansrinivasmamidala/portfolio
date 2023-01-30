@@ -5,14 +5,11 @@ export default function About() {
   return (
     <div className="container">
       <div className="about-main">
-        <div className="about-left" data-aos="fade-right">
+        <div className="about-left">
           <img src={illustration} alt="not loading" />
         </div>
         <div
           className="about-right"
-          data-aos="fade-right"
-          data-aos-duration="1200"
-          data-aos-delay="50"
         >
           <div className="about-right-top">
             <h3>

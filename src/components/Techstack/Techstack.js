@@ -14,14 +14,14 @@ export default function Techstack() {
               src="https://img.icons8.com/ios-filled/100/000000/html-5--v2.png"
               alt="not loading"
             />
-            HTML
+            <span className="icon-text">HTML</span>
           </div>
           <div className="logo-card">
             <img
               src="https://img.icons8.com/ios-filled/100/000000/css3.png"
               alt="not loading"
             />
-            CSS
+            <span className="icon-text">CSS</span>
           </div>
 
           <div className="logo-card">
@@ -29,21 +29,21 @@ export default function Techstack() {
               src="https://img.icons8.com/ios-filled/100/000000/javascript.png"
               alt="not loading"
             />
-            JS
+            <span className="icon-text">JS</span>
           </div>
           <div className="logo-card">
             <img
               src="https://img.icons8.com/ios-filled/100/000000/react-native.png"
               alt="not loading"
             />
-            React
+            <span className="icon-text">React</span>
           </div>
           <div className="logo-card">
             <img
               src="https://img.icons8.com/ios-filled/50/000000/angularjs.png"
               alt="not loading"
             />
-            Angular
+            <span className="icon-text">Angular</span>
           </div>
           <div className="logo-card">
             <svg
@@ -53,6 +53,7 @@ export default function Techstack() {
               version="1.1"
               xmlnsXlink="http://www.w3.org/1999/xlink"
               style={{ transform: "translateX(4%)", shapeRendering: "auto" }}
+              className="next-logo"
             >
               <path
                 d="M34.992 23.495h27.855v2.219H37.546v16.699h23.792v2.219H37.546v18.334h25.591v2.219H34.992v-41.69zm30.35 0h2.96l13.115 18.334 13.405-18.334L113.055.207 83.1 43.756l15.436 21.429H95.46L81.417 45.683 67.316 65.185h-3.018L79.85 43.756 65.343 23.495zm34.297 2.219v-2.219h31.742v2.219h-14.623v39.47h-2.554v-39.47H99.64zM.145 23.495h3.192l44.011 66.003L29.16 65.185 2.814 26.648l-.116 38.537H.145v-41.69zm130.98 38.801c-.523 0-.914-.405-.914-.928 0-.524.391-.929.913-.929.528 0 .913.405.913.929 0 .523-.385.928-.913.928zm2.508-2.443H135c.019.742.56 1.24 1.354 1.24.888 0 1.391-.535 1.391-1.539v-6.356h1.391v6.362c0 1.808-1.043 2.849-2.77 2.849-1.62 0-2.732-1.01-2.732-2.556zm7.322-.08h1.379c.118.853.95 1.395 2.149 1.395 1.117 0 1.937-.58 1.937-1.377 0-.685-.521-1.097-1.708-1.377l-1.155-.28c-1.62-.38-2.36-1.166-2.36-2.487 0-1.602 1.304-2.668 3.26-2.668 1.82 0 3.15 1.066 3.23 2.58h-1.354c-.13-.828-.85-1.346-1.894-1.346-1.1 0-1.832.53-1.832 1.34 0 .642.472 1.01 1.64 1.284l.987.243c1.838.43 2.596 1.178 2.596 2.53 0 1.72-1.33 2.799-3.453 2.799-1.987 0-3.323-1.029-3.422-2.637z"
@@ -60,11 +61,11 @@ export default function Techstack() {
                 fill-rule="nonzero"
               ></path>
             </svg>
-            Next JS
+            <span className="icon-text">Next JS</span>
           </div>
           <div className="logo-card">
             <img src={svelte} alt="not loading" width="3.5vw" height="7vh" />
-            Svelte
+            <span className="icon-text">Svelte</span>
           </div>
         </div>
 
@@ -81,14 +82,16 @@ export default function Techstack() {
               src="https://img.icons8.com/ios-filled/100/000000/docker.png"
               alt="not loading"
             />
-            Docker
+            <span className="icon-text">Docker</span>
+            
           </div>
           <div className="logo-card">
             <img
               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAgVBMVEX///8AAAD8/Pzh4eHx8fHm5ualpaX4+PiOjo6zs7PAwMCfn5/T09Pe3t5OTk6cnJyWlpZcXFxmZmbs7OzLy8uCgoJxcXGsrKx7e3sqKirU1NQ8PDwICAhJSUkWFhaIiIhiYmIjIyMzMzM6Ojq8vLweHh5WVlZ+fn5DQ0MYGBh1dXV8C7lyAAAGTElEQVR4nO2da1uyQBCGAUEOiSiSiGmmmfX6/3/gCwgpCcLuzMbQNfd3ch+WPcwxTWMYhmEYhmEYhmEYhmEYhmEYhmEYhmEYhmEYhmEY5o9h+sfxZ/iy10v22/DsuNHC6HtkCJiec/rQm9hsHW/R9xAhTJxDo7grryvP7nukUkzOHdSVhFHfwxVlMfsnoC9nN+p70AKMlqLycqZDmchFKKUv42sQGp+l9eXzSP5b9V5BAlPOpA9JQ24B/sDrW0Yz/gZDYHp2UJ3GGEdfymbdt5ZaHDSBKUHfampAWYJX5n3ruUP+EGwgIXYlRxeY4vct6paVAoGkjo0nJQJ13e1bWImnSKCux31Lu2ApE6jrT32Ly9krVEjiYFSzy3zj9K1Pi9QKhEo04QqRbtsP2EGGB3o4B/U2ii/xE7xVqdxHESS6OthnoOK2VsNMbnQT/R9UoP9zKIfVOPKz1W0s/Ohp2cUj3AmpQ8MHruGMeWUYX+M7e8D0kKwqiVnMVtAEKLAyhbMGc8eIEwyJwrOxyJ4CCrydwuCRb+UI9sClrMTGZkm9lro/cnnBbb6jGYLEUGRsk/wRqL+ndP6+d9iSrRe4xEP3C4qbP5AAxGUYxQ933AR2cImdN47irjyW1nah8B52jjUcESR2uqJY5SEFjUvm392rgMPo7vSU4Mtq/ZnvNX8GiMsYZX9kK+SetjHOjZZd7Xg1BaA3tuxVbQWfMRD2m3R5NWs83tyiTjB9mpZI/Y0thkT9uXbLsapnEtQbmS6qF5nnTigSdX0ZVxTYUfDjEgz2mgd6IhcimtePWIbD/OwE42C2mtcscLDd9K7LOggQJT5gCRVoAj5zrA/1IWAHjQtx1k7VC4ReZzQNFlPA2VEfcAALhKJaYvvNRzlqP1QSwQCV2w34NoPDmzKBGyq5jso8kXTyqpCTG0oIhY7VhASIRFULXHyB8KMel8lfF6hpCzTHf86xbz11iOSDt0E0AxctlYNaGtUVG8diBFuEKsFwpVI6BmswPoH6VlRuas2MIJ/qlFSWXyO+rMZhFDHkjGSucafh6MvxxOzGvUP2hGjGdLt+rXuHZsZ7FyKnbSqTszvA2atiebP6bJVkGUQI6WoN2ItRdIzHOfHRi0aqX6Rp+Z57+cE4dr31SJ020ws+t3Vpeh9vO3dNtcqlK1Yc7lvWxXQ2sE37hrXTXKpc5c1V9wkpw5y1TV6VOZn0+m6sZXyaAzqDoy8JfRmrYWj0IZGFFf0FaUO9J5I5r78GgutkQ9rmxnG3v5E1uxd7FIE6WdcJZokIvNpBAXj1yhlTehfWAFWgTimYd0FBrSStxTjGF0gkbaBAQTgv47lvXd9g5PDWQiWiYKsSmB7+fWu7oDJPiUSLBLWVhASSeJQtwoL+Z7GrM6YnifBTFaMwqYUpYHgx2P/zK9WuorULV3x4yu/v5F7LzqKpv0MFruveeLibjQPnPEfMeJHbUY0E3lrhx1GY7KqhDz/GSrKTkvgFt1CqRu+uNige4WT2SHyoJ3gh4W1KctK8adko++2LqE2cfV9Qz93NRvp4U7YxqiQTIQeV/Z49A/1Iv3NZ2t0qlqwf/IaNwHgXeTxPqsDqhtKmeO0UFcdwc3S+oBR+W2hSbGHYdy2VXiN0M+loE5fGANSddRB8TzbCAdml/HtdFqQJVuLfcTEqhNorYBQStDXWMa+9i6AFMPn+KLhZYVwAXh/l89o3yx1sd0m9JVin2YLEbVhgVuVUgqYFrWUEollb4fHOaLDiajk0eAp3kiXBaM7xZPkU+XkDesNaj5d39a7gxMoP2R4u6P7/eoT6fdRhyTcn/AW3QAo4J2AMcEj/hkR4tBzU7019KzNwJytoTzrlEqF9nuAolth/00TFaxHsf0JBpUQiuVXqzkUy0WPc3IYrhGLHakLHdCLHmoJKUB3e5AkZvDSqEvB1FB3k/gFQx4UKUDNxaOZuIi5GkvXKGtb/YElNYmqJYjeg1CxTXIJXDHD78g35wpQRrLUOBWOilUi+c2BI5KrdykQuKyAcRrnyBUs40LgZUKlNgScykWfy+0stRrR776Bu/zxMeQV2NDs1t7r+mA78/5CWmBM3WIXbq7/+cFquHHdCvziKYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRhB/gPWjVj5+9Pt/QAAAABJRU5ErkJggg=="
               alt="not loading"
             />
-            Tailwind
+            <span className="icon-text">Tailwind</span>
+            
           </div>
           <div className="logo-card" title="Amazon Web Services">
             <img
@@ -96,21 +99,23 @@ export default function Techstack() {
               alt="not loading"
               title="Amazon Web Services"
             />
-            AWS
+            <span className="icon-text">AWS</span>
+            
           </div>
           <div className="logo-card">
             <img
               src="https://img.icons8.com/windows/256/000000/nodejs.png"
               alt="not loading"
             />
-            Node JS
+            <span className="icon-text">Node JS</span>
           </div>
           <div className="logo-card">
             <img
               src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/000000/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png"
               alt="not loading"
             />
-            MongoDB
+            <span className="icon-text">MongoDB</span>
+            
           </div>
         </div>
 

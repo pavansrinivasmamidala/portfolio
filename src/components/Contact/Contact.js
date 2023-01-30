@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="contact-cards">
           <div className="contact-card" >
             <img src={phone} alt="phone" />
-            <span>+1 (416) - (854) - (8046)</span>
+            <span>+1 (416)-(854)-(8046)</span>
           </div>
           <div className="contact-card"  data-aos-delay="50">
             <img src={email} alt="email" />
