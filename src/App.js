@@ -16,6 +16,8 @@ function App() {
       <Projects />
       <Techstack />
       <Contact />
+
+      
     </div>
   );
 }
