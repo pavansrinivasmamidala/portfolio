@@ -1,12 +1,66 @@
 /* eslint-disable react/style-prop-object */
 import "./Project.css";
-import spacestagram from "../../assets/spacestagram.png";
+import projectData from "./projects.json";
 
 export default function Projects() {
+  const ProjectCard = ({ project, index }) => {
+    const isOdd = index % 2 === 1;
+
+    return (
+      <div
+        className="project-card"
+        style={{ flexDirection: isOdd ? "row-reverse" : "row" }}
+      >
+        <div className="screenshot">
+          <img
+            src={project?.imgLink}
+            style={{ objectFit: "contain" }}
+            alt="project-1"
+          />{" "}
+          <div className="tags">
+            {project?.tags.map((tag, i) => (
+              <div className="tag">
+                <span> {tag}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="description">
+          <div>
+            <span className="title"> {project?.title} </span>
+          </div>
+
+          <div
+            className="project-info"
+            dangerouslySetInnerHTML={{
+              __html: `<span> ${project?.infoHTML}</span>`,
+            }}
+          ></div>
+          <div className="project-link">
+            <a className="link" href={project?.githubLink} target="__blank">
+              <img
+                src="https://img.icons8.com/ios-glyphs/32/000000/github.png"
+                alt="github-logo"
+              />
+            </a>
+            {project?.hostedLink ? (
+              <a className="link" href={project?.hostedLink} target="__blank">
+                <img
+                  src="https://img.icons8.com/sf-black/32/000000/external-link.png"
+                  alt="link to project"
+                />
+              </a>
+            ) : null}
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <>
       <div className="project-container">
-        <div className="project-card">
+        {/* <div className="project-card">
           <div className="description">
             <div>
               <span className="title"> Type with Friends </span>
@@ -73,7 +127,6 @@ export default function Projects() {
               src="https://raw.githubusercontent.com/pavansrinivasmamidala/flight-tracker/master/demo/flight.jpg"
               width="55vw"
               alt="project-1"
-              
             />{" "}
             <div className="tags">
               <div className="tag">
@@ -149,11 +202,7 @@ export default function Projects() {
             </div>
           </div>
           <div className="screenshot">
-            <img
-              src={spacestagram}
-              width="55vw"
-              alt="project-1"
-            />{" "}
+            <img src={spacestagram} width="55vw" alt="project-1" />{" "}
             <div className="tags">
               <div className="tag">
                 <span> HTML</span>
@@ -166,7 +215,11 @@ export default function Projects() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+
+        {projectData.projects.map((project, index) => (
+          <ProjectCard key={index} project={project} index={index} />
+        ))}
       </div>
     </>
   );

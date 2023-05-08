@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "Type with Friends",
+      "infoHTML": "<span>\n  A Multiplayer typing game inspired by\n  <a\n    className='highlight'\n    href='https://monkeytype.com'\n    target='__blank'\n  >\n    monkeytype.com\n  </a>\n  <br /> (*currently working on it)\n</span>",
+      "githubLink": "https://github.com/pavansrinivasmamidala/type-with-friends",
+      "hostedLink":"",
+      "tags": ["HTML", "CSS", "Svelte", "Node JS", "Socket.io", "MongoDB"],
+      "imgLink": "https://pavansrinivas.info/monkeytype.png"
+    },
+    {
+        "title": "Flight Tracker",
+        "infoHTML": "<span> An application to track flights based on real time data </span>",
+        "githubLink": "https://github.com/pavansrinivasmamidala/flight-tracker",
+        "hostedLink":"",
+        "tags": ["HTML", "CSS", "React JS"],
+        "imgLink": "https://pavansrinivas.info/flighttracker.png"
+    },
+    {
+        "title": "Spacestagram",
+        "infoHTML": "<span> A space themed instagram clone built as a part of Shopify Internship challenge.</span>",
+        "githubLink": "https://github.com/pavansrinivasmamidala/spacestagram",
+        "hostedLink":"https://spacestagram-lyart.vercel.app/",
+        "tags": ["HTML", "Tailwind CSS", "React JS"],
+        "imgLink": "https://pavansrinivas.info/spacestagram.png"
+    }
+  ]
+}

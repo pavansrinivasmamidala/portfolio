@@ -8,21 +8,18 @@ export default function About() {
         <div className="about-left">
           <img src={illustration} alt="not loading" />
         </div>
-        <div
-          className="about-right"
-        >
+        <div className="about-right">
           <div className="about-right-top">
             <h3>
-              A rookie aspiring to be a <span>Web Dev</span>
+              Passionate Web Developer Crafting{" "}
+              <span> Digital Experiences </span>in Canada
             </h3>
-            <h3>based in Canada</h3>
 
             <p>
-              A computer geek found his way into learning how to develop
-              websites. I used to fiddle around with Networking and learning Web
-              Exploitation which rejuvenated a new interest in how websites are
-              built. I started to learn HTML, CSS and JS and built some websites
-               and finally stumbled upon React JS.
+              From computer enthusiast to a skilled web architect, I've embarked
+              on a journey to craft captivating, visually stunning, and
+              user-centric websites by harnessing the power of cutting-edge
+              technologies like React JS, Angular and Node JS. 
             </p>
           </div>
           <div>
