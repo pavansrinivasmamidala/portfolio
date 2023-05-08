@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+        "title": "Travel Nest",
+        "infoHTML": "<span> An Airbnb Clone built using React and Angular. </span>",
+        "githubLink": "https://github.com/pavansrinivasmamidala/flight-tracker",
+        "hostedLink":"",
+        "tags": ["HTML", "CSS", "React JS"],
+        "imgLink": "https://pavansrinivas.info/flighttracker.png"
+    },
+    {
       "title": "Type with Friends",
       "infoHTML": "<span>\n  A Multiplayer typing game inspired by\n  <a\n    className='highlight'\n    href='https://monkeytype.com'\n    target='__blank'\n  >\n    monkeytype.com\n  </a>\n  <br /> (*currently working on it)\n</span>",
       "githubLink": "https://github.com/pavansrinivasmamidala/type-with-friends",
@@ -14,7 +22,7 @@
         "githubLink": "https://github.com/pavansrinivasmamidala/flight-tracker",
         "hostedLink":"",
         "tags": ["HTML", "CSS", "React JS"],
-        "imgLink": "https://pavansrinivas.info/flighttracker.png"
+        "imgLink": "https://pavansrinivas.info/flighttracker.jpg"
     },
     {
         "title": "Spacestagram",
