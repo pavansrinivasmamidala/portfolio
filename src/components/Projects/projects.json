@@ -1,13 +1,6 @@
 {
   "projects": [
-    {
-        "title": "Travel Nest",
-        "infoHTML": "<span> An Airbnb Clone built using React and Angular. Angular is hosted: <a\n    className='highlight'\n    href='https://angular-seekers.vercel.app/'\n    target='__blank'\n  > here  </a> </span>",
-        "githubLink": "https://github.com/pavansrinivasmamidala/seekers-frontend",
-        "hostedLink":"https://seekers-frontend.vercel.app/",
-        "tags": ["HTML", "Tailwind", "TypeScript", "React", "Node Js", "MongoDB"],
-        "imgLink": "https://pavansrinivas.info/travelnest.png"
-    },
+    
     {
       "title": "Type with Friends",
       "infoHTML": "<span>\n  A Multiplayer typing game inspired by\n  <a\n    className='highlight'\n    href='https://monkeytype.com'\n    target='__blank'\n  >\n    monkeytype.com\n  </a>\n  <br /> (*currently working on it)\n</span>",
@@ -23,6 +16,14 @@
         "hostedLink":"",
         "tags": ["HTML", "CSS", "React JS"],
         "imgLink": "https://pavansrinivas.info/flighttracker.jpg"
+    },
+    {
+        "title": "Travel Nest",
+        "infoHTML": "<span> An Airbnb Clone built using React and Angular. Angular is hosted: <a\n    className='highlight'\n    href='https://angular-seekers.vercel.app/'\n    target='__blank'\n  > here  </a> </span>",
+        "githubLink": "https://github.com/pavansrinivasmamidala/seekers-frontend",
+        "hostedLink":"https://seekers-frontend.vercel.app/",
+        "tags": ["HTML", "Tailwind", "TypeScript", "React", "Node Js", "MongoDB"],
+        "imgLink": "https://pavansrinivas.info/travelnest.png"
     },
     {
         "title": "Spacestagram",
