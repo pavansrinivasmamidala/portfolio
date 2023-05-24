@@ -10,13 +10,13 @@
       "imgLink": "https://pavansrinivas.info/monkeytype.png"
     },
     {
-        "title": "Flight Tracker",
-        "infoHTML": "<span> An application to track flights based on real time data </span>",
-        "githubLink": "https://github.com/pavansrinivasmamidala/flight-tracker",
-        "hostedLink":"",
-        "tags": ["HTML", "CSS", "React JS"],
-        "imgLink": "https://pavansrinivas.info/flighttracker.jpg"
-    },
+      "title": "Blog AI",
+      "infoHTML": "<span> Generate Blogs/Articles using Open AI GPT-4 </span>",
+      "githubLink": "https://github.com/pavansrinivasmamidala/blog-ai",
+      "hostedLink":"https://blog-ai-seven.vercel.app",
+      "tags": ["HTML", "Tailwind", "Next JS"],
+      "imgLink": "https://pavansrinivas.info/blog-ai.png"
+  },
     {
         "title": "Travel Nest",
         "infoHTML": "<span> An Airbnb Clone built using React and Angular. Angular is hosted: <a\n    className='highlight'\n    href='https://angular-seekers.vercel.app/'\n    target='__blank'\n  > here  </a> </span>",
@@ -24,6 +24,14 @@
         "hostedLink":"https://seekers-frontend.vercel.app/",
         "tags": ["HTML", "Tailwind", "TypeScript", "React", "Node Js", "MongoDB"],
         "imgLink": "https://pavansrinivas.info/travelnest.png"
+    },
+    {
+        "title": "Flight Tracker",
+        "infoHTML": "<span> An application to track flights based on real time data </span>",
+        "githubLink": "https://github.com/pavansrinivasmamidala/flight-tracker",
+        "hostedLink":"",
+        "tags": ["HTML", "CSS", "React JS"],
+        "imgLink": "https://pavansrinivas.info/flighttracker.jpg"
     },
     {
         "title": "Spacestagram",
