@@ -42,7 +42,7 @@ export default function Navbar() {
             </li>
           </ul> */}
           <div class="button-div">
-            <a href={Pdf} target="_blank" rel="noreferrer"> <button onClick>Résumé </button></a>
+            <a href="https://pavansrinivas.info/Resume.pdf" target="_blank" rel="noreferrer"> <button onClick>Résumé </button></a>
              
             </div>
         </div>
