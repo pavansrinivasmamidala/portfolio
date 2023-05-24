@@ -14,7 +14,7 @@ export default function Projects() {
         <div className="screenshot">
           <img
             src={project?.imgLink}
-            style={{ objectFit: "contain" }}
+            style={{ objectFit: "contain",border: project.border ? "2px solid black" : "", padding  : "8px 8px"  }}
             alt="project-1"
           />{" "}
           <div className="tags">

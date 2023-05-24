@@ -7,15 +7,17 @@
       "githubLink": "https://github.com/pavansrinivasmamidala/type-with-friends",
       "hostedLink":"",
       "tags": ["HTML", "CSS", "Svelte", "Node JS", "Socket.io", "MongoDB"],
-      "imgLink": "https://pavansrinivas.info/monkeytype.png"
+      "imgLink": "https://pavansrinivas.info/monkeytype.png",
+      "border": false
     },
     {
       "title": "Blog AI",
-      "infoHTML": "<span> Generate Blogs/Articles using Open AI GPT-4 </span>",
+      "infoHTML": "<span> GPT-4 application to generate Blogs/Articles based on Title and Audience </span>",
       "githubLink": "https://github.com/pavansrinivasmamidala/blog-ai",
       "hostedLink":"https://blog-ai-seven.vercel.app",
       "tags": ["HTML", "Tailwind", "Next JS"],
-      "imgLink": "https://pavansrinivas.info/blog-ai.png"
+      "imgLink": "https://pavansrinivas.info/blog-ai.png",
+      "border": true
   },
     {
         "title": "Travel Nest",
@@ -23,7 +25,8 @@
         "githubLink": "https://github.com/pavansrinivasmamidala/seekers-frontend",
         "hostedLink":"https://seekers-frontend.vercel.app/",
         "tags": ["HTML", "Tailwind", "TypeScript", "React", "Node Js", "MongoDB"],
-        "imgLink": "https://pavansrinivas.info/travelnest.png"
+        "imgLink": "https://pavansrinivas.info/travelnest.png",
+        "border": false
     },
     {
         "title": "Flight Tracker",
@@ -31,7 +34,8 @@
         "githubLink": "https://github.com/pavansrinivasmamidala/flight-tracker",
         "hostedLink":"",
         "tags": ["HTML", "CSS", "React JS"],
-        "imgLink": "https://pavansrinivas.info/flighttracker.jpg"
+        "imgLink": "https://pavansrinivas.info/flighttracker.jpg",
+        "border": false
     },
     {
         "title": "Spacestagram",
@@ -39,7 +43,8 @@
         "githubLink": "https://github.com/pavansrinivasmamidala/spacestagram",
         "hostedLink":"https://spacestagram-lyart.vercel.app/",
         "tags": ["HTML", "Tailwind CSS", "React JS"],
-        "imgLink": "https://pavansrinivas.info/spacestagram.png"
+        "imgLink": "https://pavansrinivas.info/spacestagram.png",
+        "border":false
     }
   ]
 }
