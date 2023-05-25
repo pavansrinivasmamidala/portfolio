@@ -1,5 +1,4 @@
 import "./Navbar.css";
-import Pdf from "../../assets/Resume.pdf";
 
 export default function Navbar() {
   return (
