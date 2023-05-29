@@ -160,13 +160,14 @@
   }
 
   .about-right-top h3{
-    max-width: 33vw;
+    max-width: 60vw;
+    display: none;
   }
 
   .social-media {
     width: 80%;
     margin-left: -50px;
-    margin-top:100px;
+    margin-top:50px;
   }
 
   .icon{

@@ -102,9 +102,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .project-container{
+    margin-top: 50px;
+  }
   .project-card {
     flex-direction: column !important;
     width: 80%;
+    margin: 50px 0px;
   }
 
   .description {
@@ -112,7 +116,7 @@
   }
 
   .screenshot {
-    margin-top: 50px;
+    margin-top: 20px;
   }
 
   .screenshot img {

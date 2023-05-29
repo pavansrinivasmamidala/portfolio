@@ -14,7 +14,6 @@ export default function About() {
               Passionate Web Developer Crafting{" "}
               <span> Digital Experiences </span>in Canada
             </h3>
-
             <p>
               From computer enthusiast to a skilled web architect, I've embarked
               on a journey to craft captivating, visually stunning, and
@@ -40,7 +39,7 @@ export default function About() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div class=" icon twitter"></div>
+                    <div class="icon twitter"></div>
                   </a>
                 </li>
                 <li>
