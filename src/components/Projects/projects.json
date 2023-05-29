@@ -15,7 +15,7 @@
       "infoHTML": "<span> GPT-4 application to generate Blogs/Articles based on Title and Audience </span>",
       "githubLink": "https://github.com/pavansrinivasmamidala/blog-ai",
       "hostedLink":"https://blog-ai-seven.vercel.app",
-      "tags": ["HTML", "Tailwind", "Next JS"],
+      "tags": ["HTML", "Tailwind CSS", "Next JS"],
       "imgLink": "https://pavansrinivas.info/blog-ai.png",
       "border": true
   },

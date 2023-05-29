@@ -11,7 +11,7 @@ export default function Projects() {
         className="project-card"
         style={{ flexDirection: isOdd ? "row-reverse" : "row" }}
       >
-        <div className="screenshot">
+        <div className="screenshot" data-aos="zoom-in" data-aos-duration="1400">
           <img
             src={project?.imgLink}
             style={{ objectFit: "contain",border: project.border ? "2px solid black" : "", padding  : "8px 8px"  }}

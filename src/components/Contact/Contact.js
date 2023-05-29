@@ -11,15 +11,15 @@ export default function Contact() {
           <span>Contact Info</span>
         </div> */}
         <div className="contact-cards">
-          <div className="contact-card" >
+          <div className="contact-card" data-aos="fade-up" data-aos-duration="500" >
             <img src={phone} alt="phone" />
             <span>+1 (416)-(854)-(8046)</span>
           </div>
-          <div className="contact-card"  data-aos-delay="50">
+          <div className="contact-card"  data-aos="fade-up" data-aos-duration="500">
             <img src={email} alt="email" />
             <span>chinni.mamidala@gmail.com</span>
           </div>
-          <div className="contact-card"  data-aos-delay="100">
+          <div className="contact-card"  data-aos="fade-up" data-aos-duration="500">
               <img src={address} alt="address" />
               <span>Toronto, Canada</span>
           </div>

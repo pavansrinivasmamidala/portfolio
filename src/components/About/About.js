@@ -5,10 +5,10 @@ export default function About() {
   return (
     <div className="container">
       <div className="about-main">
-        <div className="about-left">
+        <div className="about-left" data-aos="zoom-in" data-aos-duration="600">
           <img src={illustration} alt="not loading" />
         </div>
-        <div className="about-right">
+        <div className="about-right" >
           <div className="about-right-top">
             <h3>
               Passionate Web Developer Crafting{" "}
@@ -23,7 +23,7 @@ export default function About() {
             </p>
           </div>
           <div>
-            <div className="social-media">
+            <div className="social-media" data-aos="fade-up" data-aos-duration="600">
               <ul>
                 <li>
                   <a
