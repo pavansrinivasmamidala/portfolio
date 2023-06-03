@@ -5,7 +5,7 @@
       "title": "Type with Friends",
       "infoHTML": "<span>\n  A Multiplayer typing game inspired by\n  <a\n    className='highlight'\n    href='https://monkeytype.com'\n    target='__blank'\n  >\n    monkeytype.com\n  </a>\n  <br /> (*currently working on it)\n</span>",
       "githubLink": "https://github.com/pavansrinivasmamidala/type-with-friends",
-      "hostedLink":"",
+      "hostedLink":"https://type-with-friends.vercel.app/",
       "tags": ["HTML", "CSS", "Svelte", "Node JS", "Socket.io", "MongoDB"],
       "imgLink": "https://pavansrinivas.info/monkeytype.png",
       "border": false
