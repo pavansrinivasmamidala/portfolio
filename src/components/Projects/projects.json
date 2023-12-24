@@ -7,7 +7,7 @@
       "githubLink": "https://github.com/pavansrinivasmamidala/type-with-friends",
       "hostedLink":"https://type-with-friends.vercel.app/",
       "tags": ["HTML", "CSS", "Svelte", "Node JS", "Socket.io", "MongoDB"],
-      "imgLink": "https://pavansrinivas.info/monkeytype.png",
+      "imgLink": "https://pavan-portfolio-updated.netlify.app/monkeytype.png",
       "border": false
     },
     {
@@ -16,7 +16,7 @@
       "githubLink": "https://github.com/pavansrinivasmamidala/blog-ai",
       "hostedLink":"https://blog-ai-seven.vercel.app",
       "tags": ["HTML", "Tailwind CSS", "Next JS"],
-      "imgLink": "https://pavansrinivas.info/blog-ai.png",
+      "imgLink": "https://pavan-portfolio-updated.netlify.app/blog-ai.png",
       "border": true
   },
     {
@@ -25,7 +25,7 @@
         "githubLink": "https://github.com/pavansrinivasmamidala/seekers-frontend",
         "hostedLink":"https://seekers-frontend.vercel.app/",
         "tags": ["HTML", "Tailwind", "TypeScript", "React", "Node Js", "MongoDB"],
-        "imgLink": "https://pavansrinivas.info/travelnest.png",
+        "imgLink": "https://pavan-portfolio-updated.netlify.app/travelnest.png",
         "border": false
     },
     {
@@ -34,7 +34,7 @@
         "githubLink": "https://github.com/pavansrinivasmamidala/flight-tracker",
         "hostedLink":"",
         "tags": ["HTML", "CSS", "React JS"],
-        "imgLink": "https://pavansrinivas.info/flighttracker.jpg",
+        "imgLink": "https://pavan-portfolio-updated.netlify.app/flighttracker.jpg",
         "border": false
     },
     {
@@ -43,7 +43,7 @@
         "githubLink": "https://github.com/pavansrinivasmamidala/spacestagram",
         "hostedLink":"https://spacestagram-lyart.vercel.app/",
         "tags": ["HTML", "Tailwind CSS", "React JS"],
-        "imgLink": "https://pavansrinivas.info/spacestagram.png",
+        "imgLink": "https://pavan-portfolio-updated.netlify.app/spacestagram.png",
         "border":false
     }
   ]
